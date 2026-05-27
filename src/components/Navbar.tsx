@@ -35,7 +35,6 @@ export default function Navbar() {
         <div className="apnav__inner">
 
           {/* Logo */}
-          <img src="../src/assets/WhatsApp Image 2026-05-23 at 22.23.57.png" alt="Aperture logo" height="75" width="75"/>
 
           <ul className="apnav__links" role="list">
             {NAV_LINKS.map(({ label, href }) => (
